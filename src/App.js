@@ -1,10 +1,9 @@
 import React from "react";
-//import logo from "./logo.svg";
 import "./App.css";
 
 import ApolloClient, { gql } from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";
-import { useQuery } from "@apollo/react-hooks";
+import { Query } from "react-apollo";
 require("dotenv").config();
 
 const client = new ApolloClient({
@@ -33,29 +32,26 @@ client
 	.then(console.log);
 
 function App() {
-	const { loading, error, data } = useQuery(GET_USER_INFOS, {});
 	return (
 		<ApolloProvider client={client}>
 			<div>
-				<img src={client.data.viewer.avatarUrl} alt="Logo" />
+				<Query query={GET_USER_INFOS}>
+					{({ loading, error, data }) => {
+						if (loading) return <div>Fetching</div>;
+						if (error) return <div>Error</div>;
+
+						return (
+							<div>
+								<img src={data.viewer.avatarUrl} alt="Logo" />
+							</div>
+						);
+					}}
+				</Query>
+
 				<h2>My first Apollo app </h2>
 			</div>
 		</ApolloProvider>
 	);
-
-	// return (
-	// 	<div className="App">
-	// 		<header className="App-header">
-	// 			<img src={logo} className="App-logo" alt="logo" />
-	// 			<p>
-	// 				Edit <code>src/App.js</code> and save to reload.
-	// 			</p>
-	// 			<a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-	// 				Learn React
-	// 			</a>
-	// 		</header>
-	// 	</div>
-	// );
 }
 
 export default App;
