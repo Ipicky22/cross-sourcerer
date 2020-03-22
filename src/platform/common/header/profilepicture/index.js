@@ -4,7 +4,7 @@ import "./index.css";
 import { gql } from "apollo-boost";
 import { useQuery } from "@apollo/react-hooks";
 
-const GET_USER_INFOS = gql`
+const GET_PROFILPICTURE_INFOS = gql`
 	query {
 		viewer {
 			avatarUrl
@@ -13,7 +13,7 @@ const GET_USER_INFOS = gql`
 `;
 
 function ProfilePicture() {
-	const { loading, error, data } = useQuery(GET_USER_INFOS);
+	const { loading, error, data } = useQuery(GET_PROFILPICTURE_INFOS);
 
 	if (loading) return null;
 	if (error) return `Error! ${error}`;
