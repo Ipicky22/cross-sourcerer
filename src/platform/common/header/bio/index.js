@@ -31,12 +31,12 @@ function Bio() {
 			<div className="name">{data.user.name}</div>
 			<div className="infos">
 				<div>
-					<div>email: {data.user.email}</div>
-					<div>company: {data.user.company}</div>
+					<div>{data.user.email}</div>
+					<div>{data.user.company}</div>
 				</div>
 				<div>
-					<div>bio: {data.user.bio}</div>
-					<div>location: {data.user.location}</div>
+					<div>{data.user.bio}</div>
+					<div>{data.user.location}</div>
 				</div>
 			</div>
 		</div>

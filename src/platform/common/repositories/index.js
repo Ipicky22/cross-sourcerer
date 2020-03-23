@@ -5,10 +5,10 @@ import Header from "./header";
 
 function Repositories() {
 	return (
-		<>
+		<div className="content4">
 			<Header />
 			<Repository />
-		</>
+		</div>
 	);
 }
 

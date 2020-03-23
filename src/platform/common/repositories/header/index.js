@@ -28,8 +28,9 @@ function Header() {
 	if (error) return `Error! ${error}`;
 
 	return (
-		<div>
-			<div>{data.user.repositories.totalCount}</div>
+		<div className="content3">
+			<div className="name2">Repositories</div>
+			<div className="info">{data.user.repositories.totalCount}</div>
 		</div>
 	);
 }
