@@ -39,3 +39,9 @@ View prettier report.
 ### `npm run electron`
 
 Must be launched after `npm run start`.
+
+### `npm run buildElectron`
+
+Builds the app in .exe<br />
+🙈 🙉 🙊<br />
+Need to fix the web host problem and change `win.loadURL("http://localhost:3000/");` by the new url.
