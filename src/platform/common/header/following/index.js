@@ -26,7 +26,7 @@ function Following() {
 
 	return (
 		<div className="content2">
-			<div className="title">following</div>
+			<div className="title">Following</div>
 			<div className="title">{data.user.following.totalCount}</div>
 		</div>
 	);

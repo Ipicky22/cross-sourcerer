@@ -5,6 +5,8 @@ import ProfilePicture from "./profilepicture";
 import Repositories from "./repositories";
 import Followers from "./followers";
 import Following from "./following";
+import Commits from "./commits";
+import Lines from "./lines";
 
 function Header() {
 	return (
@@ -14,7 +16,9 @@ function Header() {
 			</div>
 			<div className="content">
 				<ProfilePicture />
+				<Commits />
 				<Repositories />
+				<Lines />
 				<Followers />
 				<Following />
 			</div>
