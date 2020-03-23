@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-
+import Avatar from "@material-ui/core/Avatar";
 import { gql } from "apollo-boost";
 import { useQuery } from "@apollo/react-hooks";
 
@@ -20,7 +20,7 @@ function ProfilePicture() {
 
 	return (
 		<div>
-			<img src={data.viewer.avatarUrl} alt="Logo" />
+			<Avatar src={data.viewer.avatarUrl} />
 		</div>
 	);
 }

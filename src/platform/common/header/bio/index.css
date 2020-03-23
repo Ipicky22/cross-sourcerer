@@ -1,0 +1,23 @@
+.content {
+    width           : 80vw;
+    background-color: #F0F4F0;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+    padding         : 20px;
+}
+
+.name {
+    display    : flex;
+    flex       : 1;
+    font-weight: bold;
+    font-size  : 35px;
+    align-items: flex-end;
+}
+
+.infos {
+    display        : flex;
+    flex           : 3;
+    flex-direction : row;
+    justify-content: space-between;
+}

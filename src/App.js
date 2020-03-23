@@ -6,7 +6,7 @@ import Repositories from "./platform/common/repositories";
 
 function App() {
 	return (
-		<div>
+		<div className="App-header">
 			<Header />
 			<Repositories />
 		</div>

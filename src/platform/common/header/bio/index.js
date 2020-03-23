@@ -27,12 +27,18 @@ function Bio() {
 	if (error) return `Error! ${error}`;
 
 	return (
-		<div>
-			<div>bio: {data.user.bio}</div>
-			<div>name: {data.user.name}</div>
-			<div>company: {data.user.company}</div>
-			<div>email: {data.user.email}</div>
-			<div>location: {data.user.location}</div>
+		<div className="content">
+			<div className="name">{data.user.name}</div>
+			<div className="infos">
+				<div>
+					<div>email: {data.user.email}</div>
+					<div>company: {data.user.company}</div>
+				</div>
+				<div>
+					<div>bio: {data.user.bio}</div>
+					<div>location: {data.user.location}</div>
+				</div>
+			</div>
 		</div>
 	);
 }
