@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 ## Mandatory
 
 Create .env file at the root of project.<br />
