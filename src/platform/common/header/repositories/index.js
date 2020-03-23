@@ -24,7 +24,12 @@ function Repositories() {
 	if (loading) return null;
 	if (error) return `Error! ${error}`;
 
-	return <div> repositories: {data.user.repositories.totalCount}</div>;
+	return (
+		<div className="content2">
+			<div className="title">repositories</div>
+			<div className="title">{data.user.repositories.totalCount}</div>
+		</div>
+	);
 }
 
 export default Repositories;

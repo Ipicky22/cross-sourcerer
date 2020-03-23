@@ -24,7 +24,12 @@ function Followers() {
 	if (loading) return null;
 	if (error) return `Error! ${error}`;
 
-	return <div> followers: {data.user.followers.totalCount}</div>;
+	return (
+		<div className="content2">
+			<div className="title">followers</div>
+			<div className="title">{data.user.followers.totalCount}</div>
+		</div>
+	);
 }
 
 export default Followers;

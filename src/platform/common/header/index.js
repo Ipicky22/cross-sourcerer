@@ -9,11 +9,15 @@ import Following from "./following";
 function Header() {
 	return (
 		<div>
-			<Bio />
-			<ProfilePicture />
-			<Repositories />
-			<Followers />
-			<Following />
+			<div>
+				<Bio />
+			</div>
+			<div className="content">
+				<ProfilePicture />
+				<Repositories />
+				<Followers />
+				<Following />
+			</div>
 		</div>
 	);
 }

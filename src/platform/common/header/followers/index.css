@@ -1,0 +1,11 @@
+.content2 {
+    background-color: #3d4047;
+    height          : 10vh;
+    padding         : 8px;
+    border-radius   : 5%;
+}
+
+.title {
+    font-size : 20px;
+    margin-top: 8px;
+}

@@ -24,7 +24,12 @@ function Following() {
 	if (loading) return null;
 	if (error) return `Error! ${error}`;
 
-	return <div> following: {data.user.following.totalCount}</div>;
+	return (
+		<div className="content2">
+			<div className="title">following</div>
+			<div className="title">{data.user.following.totalCount}</div>
+		</div>
+	);
 }
 
 export default Following;
