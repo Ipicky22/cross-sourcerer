@@ -1,6 +1,6 @@
 {
-	"name": "PWA",
-	"short_name": "pwa",
+	"name": "cross-sourcerer",
+	"short_name": "cross-sourcerer",
 	"theme_color": "#2196f3",
 	"background_color": "#2196f3",
 	"display": "fullscreen",

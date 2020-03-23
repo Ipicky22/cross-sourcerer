@@ -1,6 +1,6 @@
 {
-	"name": "Hello World",
-	"short_name": "Hello",
+	"name": "cross-sourcerer",
+	"short_name": "cross-sourcerer",
 	"lang": "en-US",
 	"start_url": "/src/index.html",
 	"display": "standalone",
