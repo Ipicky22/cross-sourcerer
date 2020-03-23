@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cross-sourcerer/static/css/main.0d63faeb.chunk.css",
+    "main.js": "/cross-sourcerer/static/js/main.fea01e28.chunk.js",
+    "main.js.map": "/cross-sourcerer/static/js/main.fea01e28.chunk.js.map",
+    "runtime-main.js": "/cross-sourcerer/static/js/runtime-main.e0b4248e.js",
+    "runtime-main.js.map": "/cross-sourcerer/static/js/runtime-main.e0b4248e.js.map",
+    "static/js/2.4d993c00.chunk.js": "/cross-sourcerer/static/js/2.4d993c00.chunk.js",
+    "static/js/2.4d993c00.chunk.js.map": "/cross-sourcerer/static/js/2.4d993c00.chunk.js.map",
+    "index.html": "/cross-sourcerer/index.html",
+    "precache-manifest.3b92cfac97736092104798a62369aeb5.js": "/cross-sourcerer/precache-manifest.3b92cfac97736092104798a62369aeb5.js",
+    "service-worker.js": "/cross-sourcerer/service-worker.js",
+    "static/css/main.0d63faeb.chunk.css.map": "/cross-sourcerer/static/css/main.0d63faeb.chunk.css.map",
+    "static/js/2.4d993c00.chunk.js.LICENSE.txt": "/cross-sourcerer/static/js/2.4d993c00.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0b4248e.js",
+    "static/js/2.4d993c00.chunk.js",
+    "static/css/main.0d63faeb.chunk.css",
+    "static/js/main.fea01e28.chunk.js"
+  ]
+}
