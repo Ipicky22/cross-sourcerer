@@ -26,9 +26,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"lint": "eslint 'src/**/*.js*' --fix",
+		"lint": "eslint 'src/**/*.js*'",
 		"prettier": "prettier --check 'src/**/*.js*'",
 		"electron": "electron ./src/platform/desktop/main.js"
 	},

@@ -166,10 +166,3 @@ function Repository() {
 }
 
 export default Repository;
-
-//console.log(repo.collaborators)
-{
-	/* repo.collaborators.map((collaborator, index) => {
-							
-							return <div>{collaborator.login}</div>; */
-}
