@@ -28,7 +28,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"lint": "eslint 'src/**/*.js*'",
+		"lint": "eslint src/**/*.js*",
 		"prettier": "prettier --check 'src/**/*.js*'",
 		"electron": "electron ./src/platform/desktop/main.js",
 		"buildElectron": "electron-packager ./src/platform/desktop/main.js sourcerer --platform=win32 --arch=x86_64"

@@ -47,6 +47,7 @@ function Lines() {
 	repos.forEach(item => {
 		if (item.defaultBranchRef != null) {
 			item.defaultBranchRef.target.history.nodes.forEach(lines => {
+				// Manque gestion d'erreur ou optionals pour éviter nodes of undefined
 				nbLinesCodesAdditions += lines.additions;
 				nbLinesCodesAdditions += lines.deletions;
 			});
