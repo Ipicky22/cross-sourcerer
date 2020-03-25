@@ -44,7 +44,7 @@ function Commits() {
 
 	repos.forEach(item => {
 		if (item.defaultBranchRef != null) {
-			nbCommits += item.defaultBranchRef.target.history.totalCount;
+			nbCommits += item.defaultBranchRef.target.history.totalCount; // Manque gestion d'erreur ou optionals pour éviter totalCount of undefined
 		}
 	});
 
